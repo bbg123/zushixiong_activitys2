@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>幸运翻牌</title>
+  <link rel="stylesheet" href="./css/draw1808.css?13">
+</head>
+<script src="./js/jquery.v1.12.4.js"></script>
+<script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.3.2.js"></script>
+
+<body>
+
+  <!-- 标题 -->
+  <div class="title_img">
+    <img src="./images/title.png" alt="">
+  </div>
+
+  <div class="logo">
+    <img src="./images/logo.png" alt="">
+  </div>
+
+  <!-- 规则 -->
+  <div class="title_gz">
+    <div class="title_gz_1">
+      <div class="title_gz_back">返回首页</div>
+    </div>
+    <div class="title_gz_1">
+      <div class="title_gz_draw">我的幸运牌</div>
+      <div class="title_gz_text">活动规则</div>
+    </div>
+  </div>
+
+  <!-- 规则展示 -->
+  <div class="title_gz_box">
+    <div class="close">X</div>
+    <h3>幸运翻牌活动规则</h3>
+    <p>亲，租师兄为向各用户提供更优质的租赁服务，提升活跃度。将从即日起为广大用户提供0元租表，精美礼品，各种面额的租赁或购买优惠券。具体规则如下：</p>
+    <p>发放规则：</p>
+    <p>活动期间，幸运牌中奖几率100%，在幸运牌发放期间，用户每天均可翻牌1次。</p>
+    <p>使用规则：</p>
+    <p>1.翻牌若获得0元租表，可在我的-租赁订单中查看，0元表款仅保留一小时，请在1小时内提交订单信息，逾期将失效。</p>
+    <p>2.翻牌若获得赠送礼品，请租赁或购买本平台任意手表，礼品将随手表寄出；请在2小时内提交订单信息，逾期将失效。</p>
+    <p>3.翻牌若获得租赁或购买优惠券，可在我的-优惠券中查看，优惠券将为您保留24小时，请尽快挑选合适手表，拍下付款，即可享受优惠，逾期将失效。</p>
+    <p>感谢您对本平台的支持，租师兄祝您生活愉快！</p>
+  </div>
+
+  <div class="title_gz_draw_box"></div>
+
+  <!-- 翻牌区 -->
+  <div class="bo">
+    <div class="box">
+    </div>
+    <div class="box_2"></div>
+    <!-- 上边框圆点 -->
+    <div class="bo_top">
+      <div class="yuan"></div>
+      <div class="yuan"></div>
+      <div class="yuan"></div>
+      <div class="yuan"></div>
+      <div class="yuan"></div>
+      <div class="yuan"></div>
+      <div class="yuan"></div>
+      <div class="yuan"></div>
+      <div class="yuan"></div>
+      <div class="yuan"></div>
+    </div>
+
+    <!-- 下边框圆点 -->
+    <div class="bo_bottom">
+      <div class="yuan"></div>
+      <div class="yuan"></div>
+      <div class="yuan"></div>
+      <div class="yuan"></div>
+      <div class="yuan"></div>
+      <div class="yuan"></div>
+      <div class="yuan"></div>
+      <div class="yuan"></div>
+      <div class="yuan"></div>
+      <div class="yuan"></div>
+    </div>
+
+    <!-- 左边框圆点 -->
+    <div class="bo_left">
+      <div class="yuan"></div>
+      <div class="yuan"></div>
+      <div class="yuan"></div>
+      <div class="yuan"></div>
+      <div class="yuan"></div>
+      <div class="yuan"></div>
+      <div class="yuan"></div>
+      <div class="yuan"></div>
+      <div class="yuan"></div>
+      <div class="yuan"></div>
+    </div>
+
+    <!-- 右边框圆点 -->
+    <div class="bo_right">
+      <div class="yuan"></div>
+      <div class="yuan"></div>
+      <div class="yuan"></div>
+      <div class="yuan"></div>
+      <div class="yuan"></div>
+      <div class="yuan"></div>
+      <div class="yuan"></div>
+      <div class="yuan"></div>
+      <div class="yuan"></div>
+      <div class="yuan"></div>
+    </div>
+
+  </div>
+
+  <!-- 底部消息 -->
+  <div class="msg_box">
+    <ul class="msg_box_content"></ul>
+  </div>
+
+  <!-- 弹出框 -->
+  <div class="result">
+    <div class="close">X</div>
+    <div class="result_title">
+      <p class="clo_red result_title1">恭喜您翻到大礼</p>
+      <p class="result_title2"></p>
+    </div>
+    <img src="" alt="">
+    <div class="btn">
+      立即使用
+    </div>
+  </div>
+
+  <!-- 提示 -->
+  <div class="is_draw_tips">
+    每天1次，不要贪心哦，明天再来吧~
+  </div>
+
+  <!-- 遮罩层 -->
+  <div class="mask_layer"></div>
+  <div class="mask_layer1"></div>
+  <div class="mask_layer2"></div>
+
+  <!-- loading gif图片 -->
+  <div class="loading">
+    <img src="./images/loading.gif" alt="">
+  </div>
+
+</body>
+<script src="./js/draw1808.js?24"></script>
+<script>
+  var _hmt = _hmt || [];
+  (function () {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?7aa8d5c08ce058768dc025f2ada0fc0f";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
+
+</html>
